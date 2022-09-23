@@ -14,7 +14,7 @@ const httpTrigger: AzureFunction = async function (
       ? `Hello, ${name}. This HTTP triggered function executed successfully! The result of a + b is ${
           parseInt(a) + parseInt(b)
         }`
-      : `This HTTP triggered function executed successfully. Pass a string "name", number "a" and number "b" in the query string or in the request body for a proper response."`;
+      : `This HTTP triggered function executed successfully. Pass a string "name", number "a" and number "b" in the query string or in the request body for a proper response.`;
 
   context.res = {
     status: 200,
